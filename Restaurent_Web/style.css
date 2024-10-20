@@ -1,0 +1,414 @@
+/*Header*/
+.d1{
+    width: 100vw;
+    height: 20vh;
+    background-image: linear-gradient(to left, #6e5d15 0%, #9c8325 50%, #463c18 100% );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    
+}
+
+.body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+.d2{
+  font-size: 30px;
+  font-family: "Gotham SSm";  
+  font-weight: 600;
+  margin-left: 0px;
+  font-weight: bold;
+  margin-top: -80px;
+  margin-top: 02px;
+}
+
+.a1{
+    font-size: 14px;
+    font-family: "Gotham SSm";
+    font-weight: 500;
+    color: white;
+    text-underline-offset: 3px;
+}
+
+.d3{
+    font-size: 14px;
+    font-family: "Gothum SSm";
+}
+
+.d4{
+    width: 100vw;
+    height: 92vh;
+    margin-top: -670px;
+    margin-left: 35px;
+    background-color: transparent;
+
+    
+}
+.img1{
+    width: 160px;
+    margin-top: -10px;
+    margin-left: -830px;
+}
+
+.social{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+   
+    margin-right: 02px;
+
+}
+
+.fb{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    
+}
+
+.ins{
+    width: 25px;
+    height: 25px;
+}
+
+.twit{
+    width: 25px;
+    height: 25px;
+}
+
+.cart{
+    width: 25px;
+    height: 25px;
+}
+
+.account{
+    width: 25px;
+    height: 25px;
+}
+
+.support{
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 02px;
+}
+
+
+.search{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.searchIcon{
+    position: absolute;
+    width: 20px;
+
+}
+
+.list{
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -15px;
+
+}
+
+.li1{
+    color: white;
+    font-family: "Gotham SSm";
+    font-size: 17px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 25px;
+    border-radius: 20%;
+}
+
+.list2{
+    list-style: none;
+    margin-left: 1090px;
+    margin-top: -35px;
+
+}
+
+.li2{
+    color: white;
+    font-family: "Gotham SSm";
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 20px;
+}
+
+.li3{
+    color: rgb(3, 3, 3);
+    font-family: "Gotham SSm";
+    font-size: 17px;
+    font-weight: bold;
+    
+    margin-left: 70px;
+}
+
+.d5{
+    font-family: "Gotham SSm";
+    justify-content: center;
+    display: flex;
+    margin-top: -400px;
+    margin-left: -14px;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    font-weight: 500;
+}
+
+.d6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin-top: 7px;
+    margin-left: -10px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.btn{
+    width: 110px;
+    height: 40px;
+    margin-left: -27px;
+    margin-top: -3px;
+    background-color: transparent;
+
+    font-size: 14px;
+    font-family: "Gotham SSm";
+    color: white;
+    font-weight: 500;
+
+    border-color: transparent;
+}
+
+.video{
+    width: 100vw;
+    height: 92vh;
+    object-fit: cover;
+}
+
+.d8{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin-top: 380px;
+    margin-left: -10px;
+    color: #63531a;
+    font-weight: 500;  
+}
+
+.d9{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: -500px;
+    background-color: transparent;
+  
+}
+
+.list3{
+  width: 100%;
+    list-style: none;
+    margin-left: 450px;
+    margin-top: -15px;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Add your existing CSS styles here */
+
+/* Dropdown menu styles */
+.dropdown-content {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #ffe978;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-align: left;
+    border-color: black;
+    
+
+}
+.list4{
+    list-style: none;
+    color: black;
+    border-radius: 20px;
+    
+    
+}
+
+.li4{
+    width: 100px;
+    color: rgb(10, 10, 10);
+    font-family: "Gotham SSm";
+    font-size: 17px;
+    font-weight: bold;
+    height: 40px;
+    display: block;
+    
+
+    margin-left: -30px;
+    background-color: #f1e5b7;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+/*Footer*/
+footer {
+    background-color: #6e5d15;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-column {
+    flex-basis: 25%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    display: inline;
+
+    
+  }
+  .p2{
+    display: inline;
+    margin-left: -60px;
+  }
+
+  
+  .footer-column h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column p {
+    margin-bottom: 15px;
+    margin-right: 200px;
+  }
+
+  .footer-bottom{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .social-media li a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media li a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .btn2{
+    margin-left: 1220px;
+  }
+  
+ .p1{
+  color: white;
+ }
+  
+
+  .btn3{
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+
+  }
+
+  .dropdown-content1 {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #ece3b8;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-align: left;
+    border-color: black;
+  }
+
+.icon_1{
+    width: 50px;
+
+}
+
+.icon_2{
+    width: 30px;
+}
+
+.colombo{
+  width: 100%;
+  height: 250px;
+}
+.kurunegala{
+  width: 100%;
+  height: 250px;
+}
+
+.kandy{
+  width: 100%;
+  height: 250px;
+}
+
+.branch{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.branch-d{
+  margin-left: 50%;
+}
+

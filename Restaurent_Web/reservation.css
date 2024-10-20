@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+    
+}
+
+header {
+    background-color: #6e5d15;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.h5{
+  opacity: 0.7;
+}
+.content {
+    margin: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(background.jpg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    border-radius: 07%;
+    
+    
+}
+
+
+h2 {
+    color: #faf7f7;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+    
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100px;
+    margin-top: 10px;
+    background-color: #dd1b0d;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 300px;
+    
+   
+    
+}
+
+textarea {
+    height: 100px;
+ 
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: #6e5d15;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-column {
+    flex-basis: 25%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    display: inline;
+
+    
+  }
+  .p2{
+    display: inline;
+    margin-left: -60px;
+  }
+
+  
+  .footer-column h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column p {
+    margin-bottom: 15px;
+    margin-right: 200px;
+  }
+
+  .footer-bottom{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .social-media li a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media li a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .p1{
+    color: white;
+   }
+
+   .icon_1{
+    width: 50px;
+
+}
+
+.icon_2{
+    width: 30px;
+}

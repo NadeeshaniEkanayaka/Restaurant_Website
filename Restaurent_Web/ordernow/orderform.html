@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Order Now</title>
+  <link rel="stylesheet" href="orderform.css">
+</head>
+<body>
+  <header>
+    <h1><center>Place Your Order</center></h1>
+  </header>
+  <br>
+  <main>
+    <form id="orderForm" action="orderform.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="names" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="addres" rows="4" required></textarea>
+
+      <label for="paymentMethod">Payment Method:</label>
+      <div id="paymentMethod">
+        <label>
+          <input type="radio" name="payment" value="card" required> Credit Card
+        </label>
+        <label>
+          <input type="radio" name="payment" value="cash" required> Cash on Delivery
+        </label>
+      </div>
+
+      <div id="cardDetails">
+        <label for="cardNumber">Card Number:</label><br>
+        <input type="text" id="cardNumber" name="cardNumber" >
+      </div>
+
+      <label for="deliveryOption">Delivery or Takeaway:</label>
+      <select id="deliveryOption" name="deliveryOption" required>
+        <option value="delivery">Delivery</option>
+        <option value="takeaway">Takeaway</option>
+      </select>
+
+      <label for="branch">Choose a Branch:</label>
+      <div class="branch">
+      <select id="branch" name="branch" required>
+        <option value="kurunegala">Kurunegala</option>
+        <option value="colombo">Colombo</option>
+        <option value="kandy">Kandy</option>
+      </select>
+     
+      </div>
+      <br>
+      <button type="submit">Place Order</button>
+    </form>
+
+    
+  </main>
+  <br>
+  <div>
+    <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-column">
+              <h4>Contact Us</h4>
+            
+              <p> <img src="icons8_marker_100px.png" class="icon_2">123 Main Street<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Kurunegala,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Srilanka <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60602</p>
+                <p><img src="icons8_phone_52px_1.png" class="icon_2">   +(123) 456-7890<br></p>
+                <p><img src="icons8_secured_letter_100px_1.png" class="icon_2">  signatuecusince@email.com</p>
+            </div>
+            <div class="footer-column">
+              <h4>Opening Hours</h4>
+          
+          <p class="p2">Monday &nbsp;&nbsp;  : 9am - 10pm<br>
+          <p class="p2">Teusday &nbsp;&nbsp; :9am -10pm<br>
+           <p class="p2">   Wendsday :9am - 10pm <br>
+            <p class="p2">  Thursday &nbsp;:9am -10pm<br>
+            <p class="p2">  Friday &nbsp;&nbsp;&nbsp;&nbsp;  :9am - 11.30pm<br>
+            <p class="p2"> Saturday &nbsp;: 24 Hours <br>
+            <p class="p2">  Sunday   : 24Hours  </p>
+            </div>
+            <div class="footer-column">
+              <h4>Quic path</h4>
+              <a href="Home.html"><p class="p1">Home</p></a>
+              <a href="menu.html"><p class="p1">Menu</p></a>
+              <a href="order.html"><p class="p1">Order</p></a>
+              <a href="reservation.html"><p class="p1">Reservation</p></a>
+              <a href="gallery.html"><p class="p1">Gallery</p></a>
+              <a href="staff.html"><p class="p1">Staff</p></a>
+              <a href="feedback.html"><p class="p1">Feedback</p></a>
+              <a href="aboutus.html"><p class="p1">AboutUs</p></a>
+              <a href="contactus.html"><p class="p1">ContactUS</p></a>
+            </div>
+            <div class="footer-column">
+              <h4>Follow Us</h4>
+              <ul class="social-media">
+                <li><a href="www.google.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"><img src="icons8_Facebook_96px_1.png" class="icon_1"></i></a></li>
+                <li><a href="Home.html" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"><img src="icons8_twitter_96px.png" class="icon_1"></i></a></li>
+                <li><a href="Home.html" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"><img src="icons8_instagram_96px.png" class="icon_1"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2023 Signature Cuisine Restaurant. All rights reserved. | Designed by YourName</p>
+          </div>
+        </div>
+      </footer>
+
+
+</div>
+</body>
+</html>

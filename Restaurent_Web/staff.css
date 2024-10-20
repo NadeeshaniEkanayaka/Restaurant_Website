@@ -1,0 +1,29 @@
+.staff-container {
+    
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to left, #583443 0%, #6b9fe2 50%, #64361b 100% );
+   
+   width: 100vx;
+    
+}
+
+.staff-member {
+    text-align: center;
+    margin: 20px;
+    width: 48%;
+    background-color: rgb(236, 206, 72);
+    margin-left: 300px;
+    border-radius: 20px;
+    opacity: 1.2;
+    
+}
+
+.staff-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+
+
